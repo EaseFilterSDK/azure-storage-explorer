@@ -1,4 +1,20 @@
-# CloudExplorer For Amazon S3, Azure Storage and more...
+# C# Azure Storage Explorer
+
+[![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)]()
+[![Language](https://img.shields.io/badge/Language-C%23%20%7C%20C++%20%7C%20Python%20%7C%20Rust%20%7C%20Java-success.svg)]()
+[![Cloud](https://img.shields.io/badge/cloud-Azure%20-orange.svg)]()
+
+A powerful, Windows-based C# desktop application built to browse, manage, and transfer files seamlessly across your Microsoft Azure Storage accounts. Based on the [EaseFilter Azure Storage Explorer guide](https://www.easefilter.com/cloud/azure-storage-explorer.htm), this project provides a working template for interacting with Azure Blob Storage using the Azure SDK for .NET.
+
+## 🚀 Features
+
+* **Flexible Authentication:** Connect to your storage accounts via Azure Account login, Shared Access Signature (SAS) URIs, or Storage Account Name & Key.
+* **Complete Blob Management:** Create containers, upload, download, and view blobs (Block, Append, and Page blobs) directly from your desktop.
+* **Advanced Snapshot Control:** Easily create and manage snapshots of your blobs to protect against accidental modifications or deletions.
+* **Access Policy & SAS Generation:** Manage container access policies directly in the UI and generate Shared Access Signatures (SAS) with custom expiration times and permissions.
+* **Streamlined UI:** Intuitive interface modeled after the official Azure Storage Explorer to ensure a familiar and efficient user experience.
+
+## Azure Storage Explorer Example
 
 [CloudTier Cloud storage explorer](https://www.easefilter.com/Forums_Files/CloudStorageConnect.htm)
 
@@ -57,6 +73,17 @@ With CloudTier Cloud Storage Connect service can connect an on-premise software 
 * [Filter Driver Developer Guide](https://www.easefilter.com/kb/DeveloperGuide.htm)
 * [MiniFilter Filter Driver Framework](https://www.easefilter.com/kb/minifilter-framework.htm)
 * [Isolation Filter Driver](https://www.easefilter.com/kb/Isolation_Filter_Driver.htm)
+
+## License
+
+This repository contains two distinct licensing categories:
+
+1. **Wrapper/Implementation Code (MIT License):** 
+   The source code, scripts, and configuration files provided directly in this repository are licensed under the [MIT License](LICENSE). You are free to modify, distribute, and use this specific integration code.
+
+2. **EaseFilter SDK (Commercial License):**
+   This project requires the EaseFilter SDK (including its binaries, filter drivers, and core libraries) to function. The EaseFilter SDK is **proprietary commercial software** and is strictly excluded from the MIT License.   
+   To use the EaseFilter SDK for commercial purposes or in a production environment, you must obtain a valid commercial license directly from [EaseFilter](https://www.easefilter.com/license.pdf).
 
 ## Support
 If you have questions or need help, please contact support@easefilter.com 
